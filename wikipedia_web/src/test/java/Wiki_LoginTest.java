@@ -8,7 +8,7 @@ public class Wiki_LoginTest extends TestBase{
 
         selectLanguage();
         initLogin();
-        fillLoginForm();
+        fillLoginForm("rinosi", "gfttr37346");
         confirmLogin();
     }
 

@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55dab9be-978e-4cd8-b1ce-027312e37427" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/trello-mobile-tests.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/trello-mobile-tests.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/trello-mobile-tests_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/trello-mobile-tests_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/trello-mobile-tests_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/trello-mobile-tests_test.iml" afterDir="false" />
+    <list default="true" id="55dab9be-978e-4cd8-b1ce-027312e37427" name="Default" comment="trello">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-mobile-tests/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-mobile-tests/src/test/java/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-mobile-tests/src/test/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-mobile-tests/src/test/java/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikipedia_web/src/test/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/wikipedia_web/src/test/java/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikipedia_web/src/test/java/Wiki_LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/wikipedia_web/src/test/java/Wiki_LoginTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/trello-mobile-tests/.gradle/" />
     <ignored path="$PROJECT_DIR$/trello-mobile-tests/build/" />
@@ -47,22 +41,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wikipedia_web/src/test/java/Wiki_LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="11" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wikipedia_web/src/test/java/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-106">
-              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <state relative-caret-position="525">
+              <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
                 <element signature="e#377#378#0" expanded="true" />
                 <element signature="e#429#430#0" expanded="true" />
                 <element signature="e#463#464#0" expanded="true" />
@@ -71,9 +64,34 @@
                 <element signature="e#1027#1028#0" expanded="true" />
                 <element signature="e#1063#1064#0" expanded="true" />
                 <element signature="e#1140#1141#0" expanded="true" />
-                <element signature="e#1185#1186#0" expanded="true" />
-                <element signature="e#1210#1211#0" expanded="true" />
+                <element signature="e#1113#1114#0" expanded="true" />
+                <element signature="e#1190#1191#0" expanded="true" />
+                <element signature="e#1213#1214#0" expanded="true" />
+                <element signature="e#1263#1264#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wikipedia_web/src/test/java/NotificationsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wikipedia_web/src/test/java/AddToFavorits.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -98,16 +116,17 @@
         <option value="$PROJECT_DIR$/trello-mobile-tests/src/test/java/LoginTest.java" />
         <option value="$PROJECT_DIR$/trello-mobile-tests/src/test/java/TestBase.java" />
         <option value="$PROJECT_DIR$/wikipedia_web/build.gradle" />
-        <option value="$PROJECT_DIR$/wikipedia_web/src/test/java/TestBase.java" />
         <option value="$PROJECT_DIR$/wikipedia_web/src/test/java/Wiki_LoginTest.java" />
+        <option value="$PROJECT_DIR$/wikipedia_web/src/test/java/AddToFavorits.java" />
+        <option value="$PROJECT_DIR$/wikipedia_web/src/test/java/TestBase.java" />
+        <option value="$PROJECT_DIR$/wikipedia_web/src/test/java/NotificationsTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="274" />
-    <option name="y" value="79" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
     <option name="width" value="974" />
-    <option name="height" value="1051" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -185,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Wiki_LoginTest">
+  <component name="RunManager" selected="TestNG.NotificationsTest.readNotification">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -230,11 +249,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenAppTest.isAppOpened" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="trello-mobile-tests_test" />
+    <configuration name="NotificationsTest.readNotification" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="wikipedia_web.test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OpenAppTest" />
-      <option name="METHOD_NAME" value="isAppOpened" />
+      <option name="MAIN_CLASS_NAME" value="NotificationsTest" />
+      <option name="METHOD_NAME" value="readNotification" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -287,19 +306,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.OpenAppTest.isAppOpened" />
       <item itemvalue="TestNG.LoginTest.loginTest" />
       <item itemvalue="TestNG.LoginTest" />
       <item itemvalue="TestNG.Wiki_LoginTest" />
       <item itemvalue="TestNG.Wiki_LoginTest.testLogin" />
+      <item itemvalue="TestNG.NotificationsTest.readNotification" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.NotificationsTest.readNotification" />
         <item itemvalue="TestNG.Wiki_LoginTest" />
         <item itemvalue="TestNG.Wiki_LoginTest.testLogin" />
         <item itemvalue="TestNG.LoginTest.loginTest" />
         <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.OpenAppTest.isAppOpened" />
       </list>
     </recent_temporary>
   </component>
@@ -314,12 +333,17 @@
       <option name="presentableId" value="Default" />
       <updated>1552850050126</updated>
     </task>
+    <task id="LOCAL-00001" summary="trello">
+      <created>1556957296708</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556957296708</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Wiki_LoginTest - 2019.05.04 at 10h 15m 25s.xml">
-      <configuration name="Wiki_LoginTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Wiki_LoginTest - 2019.05.04 at 10h 34m 29s.xml">
       <configuration name="Wiki_LoginTest" configurationId="TestNG" />
     </history-entry>
@@ -347,12 +371,14 @@
     <history-entry file="Wiki_LoginTest - 2019.05.04 at 10h 57m 20s.xml">
       <configuration name="Wiki_LoginTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="NotificationsTest_readNotification - 2019.05.04 at 12h 23m 07s.xml">
+      <configuration name="NotificationsTest.readNotification" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26545843" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23413567" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -361,7 +387,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19393283" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19365427" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -370,7 +396,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.33260393" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -382,6 +408,10 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="right" id="Maven" order="9" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="trello" />
+    <option name="LAST_COMMIT_MESSAGE" value="trello" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/trello-mobile-tests/build.gradle">
@@ -443,20 +473,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wikipedia_web/src/test/java/Wiki_LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wikipedia_web/src/test/java/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-106">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="525">
+          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
             <element signature="e#377#378#0" expanded="true" />
             <element signature="e#429#430#0" expanded="true" />
             <element signature="e#463#464#0" expanded="true" />
@@ -465,8 +494,29 @@
             <element signature="e#1027#1028#0" expanded="true" />
             <element signature="e#1063#1064#0" expanded="true" />
             <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1185#1186#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="e#1263#1264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikipedia_web/src/test/java/AddToFavorits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikipedia_web/src/test/java/NotificationsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
           </folding>
         </state>
       </provider>

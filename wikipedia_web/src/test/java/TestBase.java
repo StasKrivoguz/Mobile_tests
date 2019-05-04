@@ -12,7 +12,10 @@ public class TestBase {
     public void setUp(){
         wd = new ChromeDriver();
         openSite();
-
+    }
+    @AfterClass
+    public void tearDown(){
+        wd.quit();
     }
 
     public void openSite() {
@@ -20,30 +23,47 @@ public class TestBase {
     }
 
     public void confirmLogin() {
-        wd.findElement(By.cssSelector("button[value='Log in']")).click();
+        click(By.cssSelector("button[value='Log in']"));
     }
 
-    public void fillLoginForm() {
-        wd.findElement(By.name("wpName")).click();
-        wd.findElement(By.name("wpName")).clear();
-        wd.findElement(By.name("wpName")).sendKeys("rinosi");
+    public void fillLoginForm(String user, String password) {
+        type(By.name("wpName"), user);
 
+        type(By.name("wpPassword"), password);
+    }
 
-        wd.findElement(By.name("wpPassword")).click();
-        wd.findElement(By.name("wpPassword")).clear();
-        wd.findElement(By.name("wpPassword")).sendKeys("12345.com");
+    public void type(By locator, String text) {
+        click(locator);
+        wd.findElement(locator).clear();
+        wd.findElement(locator).sendKeys(text);
     }
 
     public void initLogin() {
-        wd.findElement(By.cssSelector("#pt-login")).click();
+        click(By.cssSelector("#pt-login"));
     }
 
     public void selectLanguage() {
-        wd.findElement(By.xpath("//a[@id='js-link-box-en']")).click();
+        click(By.xpath("//a[@id='js-link-box-en']"));
     }
 
-    @AfterClass
-    public void tearDown(){
-        wd.quit();
+    public void click(By locator) {
+        wd.findElement(locator).click();
+    }
+
+
+    public void clickOnStar() {
+        click(By.cssSelector("#ca-watch"));
+    }
+
+    public void searchArticle(String articleTitle){
+        type(By.name("seach"), articleTitle);
+        click(By.name("go"));
+    }
+
+    public void validLogin() {
+        selectLanguage();
+        initLogin();
+        fillLoginForm("etarnovskayall", "qawsedrf");
+        confirmLogin();
     }
 }
