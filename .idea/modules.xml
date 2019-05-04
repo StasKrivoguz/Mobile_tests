@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trello-mobile-tests.iml" filepath="$PROJECT_DIR$/.idea/modules/trello-mobile-tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trello-mobile-tests.iml" filepath="$PROJECT_DIR$/.idea/modules/trello-mobile-tests.iml" group="trello-mobile-tests" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/trello-mobile-tests_main.iml" filepath="$PROJECT_DIR$/.idea/modules/trello-mobile-tests_main.iml" group="trello-mobile-tests" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/trello-mobile-tests_test.iml" filepath="$PROJECT_DIR$/.idea/modules/trello-mobile-tests_test.iml" group="trello-mobile-tests" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wikipedia_web.iml" filepath="$PROJECT_DIR$/.idea/modules/wikipedia_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wikipedia_web.main.iml" filepath="$PROJECT_DIR$/.idea/modules/wikipedia_web.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wikipedia_web.test.iml" filepath="$PROJECT_DIR$/.idea/modules/wikipedia_web.test.iml" />
     </modules>
   </component>
 </project>

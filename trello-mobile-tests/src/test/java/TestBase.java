@@ -19,7 +19,7 @@ public class TestBase {
     capabilities.setCapability("automationName", "Appium");
     capabilities.setCapability("appPackage", "com.trello");
     capabilities.setCapability("appActivity", ".home.HomeActivity");
-    capabilities.setCapability("app", "C:/Users/Elena/Documents/GitHub/Mobile_tests/trello-mobile-tests/apk/com.trello_11966_apps.evozi.com.apk");
+    capabilities.setCapability("app", "D:/QA Works/Mobile_tests/trello-mobile-tests/apk/com.trello_11966_apps.evozi.com.apk");
 
     driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
   }

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="trello-mobile-tests:test" external.linked.project.path="$MODULE_DIR$/../../trello-mobile-tests" external.root.project.path="$MODULE_DIR$/../../trello-mobile-tests" external.system.id="GRADLE" external.system.module.group="Tr" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="ExternalSystem" linkedProjectPath="$MODULE_DIR$/../../wikipedia_web" rootProjectPath="$MODULE_DIR$/../../wikipedia_web" />
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output-test url="file://$MODULE_DIR$/../../trello-mobile-tests/out/test/classes" />
+    <output-test url="file://$MODULE_DIR$/../../trello-mobile-tests/build/classes/java/test" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../trello-mobile-tests/src/test">
       <sourceFolder url="file://$MODULE_DIR$/../../trello-mobile-tests/src/test/java" isTestSource="true" />

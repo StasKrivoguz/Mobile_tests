@@ -21,5 +21,7 @@ public class LoginTest extends  TestBase {
     WebElement boardsTitle = driver.findElement(By.xpath("//*[contains(@text, 'Boards')]"));
     Assert.assertTrue(boardsTitle.isDisplayed());
 
+
+
   }
 }
