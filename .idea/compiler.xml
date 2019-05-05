@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="myshop-web_tests.main" target="1.8" />
+      <module name="myshop-web_tests.test" target="1.8" />
       <module name="trello-mobile-tests_main" target="1.8" />
       <module name="trello-mobile-tests_test" target="1.8" />
       <module name="wikipedia_web.main" target="1.8" />
