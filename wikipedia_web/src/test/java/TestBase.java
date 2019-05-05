@@ -4,6 +4,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
+import java.util.concurrent.TimeUnit;
+
 public class TestBase {
 
     WebDriver wd;
@@ -11,6 +13,7 @@ public class TestBase {
     @BeforeClass
     public void setUp(){
         wd = new ChromeDriver();
+        wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         openSite();
     }
     @AfterClass
@@ -56,14 +59,14 @@ public class TestBase {
     }
 
     public void searchArticle(String articleTitle){
-        type(By.name("seach"), articleTitle);
+        type(By.name("search"), articleTitle);
         click(By.name("go"));
     }
 
     public void validLogin() {
         selectLanguage();
         initLogin();
-        fillLoginForm("etarnovskayall", "qawsedrf");
+        fillLoginForm("Stasikovich", "12028484");
         confirmLogin();
     }
 }
